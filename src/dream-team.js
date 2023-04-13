@@ -31,7 +31,6 @@ function createDreamTeam(members) {
 
   return tempArray.sort().join("");
 }
-console.log(createDreamTeam(team));
 
 module.exports = {
   createDreamTeam,
