@@ -25,6 +25,7 @@ function getEmailDomain(email) {
       result = email.split("@")[2];
     }
   }
+
   return result;
 }
 console.log(getEmailDomain(email));
