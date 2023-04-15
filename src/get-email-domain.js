@@ -28,7 +28,6 @@ function getEmailDomain(email) {
 
   return result;
 }
-console.log(getEmailDomain(email));
 
 module.exports = {
   getEmailDomain,
