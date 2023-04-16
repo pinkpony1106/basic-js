@@ -15,14 +15,14 @@ const { NotImplementedError } = require("../extensions/index.js");
  * => 'STRINGPLUS00PLUS00PLUS**STRINGPLUS00PLUS00PLUS**STRINGPLUS00PLUS00PLUS'
  *
  */
-let str = "STRING";
-let options = {
-  repeatTimes: 3,
-};
+// let str = "STRING";
+// let options = {
+//   repeatTimes: 3,
+// };
 
 function repeater(str, options) {
   let result = [];
-  console.log(options.hasOwnProperty("addition"));
+
   if (
     options.hasOwnProperty("addition") ||
     options.hasOwnProperty("additionRepeatTimes") ||
@@ -44,7 +44,7 @@ function repeater(str, options) {
   return result;
 }
 
-console.log(repeater(str, options));
+// console.log(repeater(str, options));
 
 module.exports = {
   repeater,
